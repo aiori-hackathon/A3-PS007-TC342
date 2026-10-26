@@ -1,0 +1,39 @@
+{
+  "summary": {
+    "mode": "offline_simulation",
+    "events_received": 16,
+    "authenticated_events_accepted": 15,
+    "events_rejected_auth_or_validation": 1,
+    "devices_seen": 6,
+    "alerts_found": 2,
+    "ndp_threshold": 4,
+    "ndp_window_seconds": 10,
+    "session_ttl_seconds": 30
+  },
+  "privacy_checks": {
+    "pseudonym_changes_after_expiry": true,
+    "same_device_has_distinct_tenant_pseudonyms": true,
+    "raw_device_ids_in_alerts": false,
+    "note": "Simulation property checks only; not a formal anonymity guarantee."
+  },
+  "alerts": [
+    {
+      "timestamp": 1008.0,
+      "type": "rogue_ra",
+      "tenant": "tenant-A",
+      "pseudonym": "dev-5002b1a5",
+      "message": "Router Advertisement from a source not in the authorized-router allowlist",
+      "scenario": "attack_1_rogue_ra"
+    },
+    {
+      "timestamp": 1012.0,
+      "type": "abnormal_ndp_rate",
+      "tenant": "tenant-A",
+      "pseudonym": "dev-5b541097",
+      "count_in_window": 5,
+      "window_seconds": 10,
+      "message": "NDP count exceeded threshold in the configured time window",
+      "scenario": "attack_2_ndp_burst"
+    }
+  ]
+}

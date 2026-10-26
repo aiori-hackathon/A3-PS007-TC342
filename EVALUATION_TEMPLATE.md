@@ -9,7 +9,6 @@ Environment:
 
 | Scenario | Trials | Detected | Missed | False alerts | Notes |
 |---|---:|---:|---:|---:|---|
-| Benign baseline | | | | | |
 | Rogue RA | | | | | |
 | Abnormal NDP rate | | | | | |
 | Pseudonym expiry | | | | | |
