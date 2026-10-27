@@ -1,0 +1,12 @@
+test_demo_has_five_devices (test_monitor.PS007Tests.test_demo_has_five_devices) ... ok
+test_ndp_burst_detected (test_monitor.PS007Tests.test_ndp_burst_detected) ... ok
+test_pseudonym_expiry (test_monitor.PS007Tests.test_pseudonym_expiry) ... ok
+test_rogue_ra_detected (test_monitor.PS007Tests.test_rogue_ra_detected) ... ok
+test_tenant_scoping (test_monitor.PS007Tests.test_tenant_scoping) ... ok
+test_threshold_validation (test_monitor.PS007Tests.test_threshold_validation) ... ok
+test_wrong_token_rejected (test_monitor.PS007Tests.test_wrong_token_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.003s
+
+OK

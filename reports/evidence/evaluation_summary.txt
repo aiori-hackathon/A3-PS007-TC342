@@ -1,0 +1,25 @@
+PS-007 EVALUATION SUMMARY
+=========================
+Evaluation mode: offline_simulation
+Events received: 16
+Authenticated events accepted: 15
+Events rejected: 1
+Devices seen: 6
+Alerts generated: 2
+NDP threshold: 4
+NDP window (seconds): 10
+
+Detection scenarios:
+- rogue_ra: DETECTED (1 alert(s))
+- abnormal_ndp_rate: DETECTED (1 alert(s))
+
+Privacy simulation checks:
+- pseudonym_changes_after_expiry: True
+- same_device_has_distinct_tenant_pseudonyms: True
+- raw_device_ids_in_alerts: False
+- note: Simulation property checks only; not a formal anonymity guarantee.
+
+Limitations:
+- Results are from offline simulation, not live attack-detection trials.
+- Detection rate and false-positive rate cannot be calculated without labelled test outcomes.
+- Privacy checks are simulation properties, not a formal anonymity guarantee.

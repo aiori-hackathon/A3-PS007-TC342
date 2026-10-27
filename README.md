@@ -93,3 +93,25 @@ A3-PS007-TC342/
 - Record environment, commands, outputs, and limitations.
 
 Never run rogue-router or traffic-flood tests on a campus, home, or public network. Use only an isolated lab you control or have permission to test.
+
+## PS-007 Evaluation Results
+
+The current automated evaluation uses offline simulation.
+
+- Automated tests: 7 passed.
+- Events received: 16.
+- Authenticated events accepted: 15.
+- Events rejected by authentication or validation: 1.
+- Devices seen by the simulator: 6.
+- Alerts generated: 2.
+- Rogue Router Advertisement scenario: detected in simulation.
+- Abnormal NDP-rate scenario: detected in simulation (5 events in a 10-second window; threshold 4).
+- Temporary IPv6 address changes were observed in the isolated Linux lab.
+
+### Privacy checks
+
+The simulation reports pseudonym changes after session expiry, distinct pseudonyms across tenants, and no raw device IDs in alerts. These are simulation property checks, not a formal anonymity guarantee.
+
+### Limitations
+
+The alert results are from offline simulation; live rogue-RA and abnormal-NDP detection have not yet been validated end-to-end. Detection rate and false-positive rate require labelled test outcomes and are not claimed here.

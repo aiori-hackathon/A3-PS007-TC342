@@ -1,0 +1,86 @@
+IPv6 temporary-address rotation evidence
+2026-10-27T10:57:53+00:00
+
+6: veth0@if5: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000 link-netnsid 0
+    inet6 fd42:7::40e7:7d40:1004:2eb6/64 scope global temporary tentative dynamic 
+       valid_lft 60sec preferred_lft 6sec
+    inet6 fd42:7::d70:29b:496:5ba5/64 scope global temporary dynamic 
+       valid_lft 59sec preferred_lft 5sec
+    inet6 fd42:7::76c2:e03d:ede9:d05e/64 scope global temporary dynamic 
+       valid_lft 57sec preferred_lft 3sec
+    inet6 fd42:7::dfbe:4cc3:fe3c:fd88/64 scope global temporary dynamic 
+       valid_lft 55sec preferred_lft 1sec
+    inet6 fd42:7::584e:a37d:1f83:5921/64 scope global temporary deprecated dynamic 
+       valid_lft 53sec preferred_lft 0sec
+    inet6 fd42:7::3245:60de:f87:d51b/64 scope global temporary deprecated dynamic 
+       valid_lft 52sec preferred_lft 0sec
+    inet6 fd42:7::1bec:bfe5:b2d3:8863/64 scope global temporary deprecated dynamic 
+       valid_lft 50sec preferred_lft 0sec
+    inet6 fd42:7::9107:45cc:7b07:f49b/64 scope global temporary deprecated dynamic 
+       valid_lft 49sec preferred_lft 0sec
+    inet6 fd42:7::8f1:7fe4:5773:3909/64 scope global temporary deprecated dynamic 
+       valid_lft 47sec preferred_lft 0sec
+    inet6 fd42:7::aa5f:1ead:cd58:6d20/64 scope global temporary deprecated dynamic 
+       valid_lft 46sec preferred_lft 0sec
+    inet6 fd42:7::3aa0:7938:afc8:77c2/64 scope global temporary deprecated dynamic 
+       valid_lft 44sec preferred_lft 0sec
+    inet6 fd42:7::1277:3165:4484:6703/64 scope global temporary deprecated dynamic 
+       valid_lft 43sec preferred_lft 0sec
+    inet6 fd42:7::afb3:fbd9:80fc:aeb6/64 scope global temporary deprecated dynamic 
+       valid_lft 41sec preferred_lft 0sec
+    inet6 fd42:7::7148:4565:85d9:7c0f/64 scope global temporary deprecated dynamic 
+       valid_lft 39sec preferred_lft 0sec
+    inet6 fd42:7::22e5:965e:7a49:f42d/64 scope global temporary deprecated dynamic 
+       valid_lft 37sec preferred_lft 0sec
+    inet6 fd42:7::758c:f466:10b2:f2d1/64 scope global temporary deprecated dynamic 
+       valid_lft 36sec preferred_lft 0sec
+    inet6 fd42:7::124d:8b3b:29d8:3010/64 scope global temporary deprecated dynamic 
+       valid_lft 35sec preferred_lft 0sec
+    inet6 fd42:7::92e5:a481:78d7:ea3e/64 scope global temporary deprecated dynamic 
+       valid_lft 33sec preferred_lft 0sec
+    inet6 fd42:7::c3d0:9ba4:756a:ea76/64 scope global temporary deprecated dynamic 
+       valid_lft 31sec preferred_lft 0sec
+    inet6 fd42:7::75c6:7a70:aacb:a6f/64 scope global temporary deprecated dynamic 
+       valid_lft 29sec preferred_lft 0sec
+    inet6 fd42:7::c4db:d1fd:baae:dff/64 scope global temporary deprecated dynamic 
+       valid_lft 28sec preferred_lft 0sec
+    inet6 fd42:7::ce20:8e22:d50c:77e/64 scope global temporary deprecated dynamic 
+       valid_lft 26sec preferred_lft 0sec
+    inet6 fd42:7::2129:699:94da:5cc7/64 scope global temporary deprecated dynamic 
+       valid_lft 24sec preferred_lft 0sec
+    inet6 fd42:7::1a47:4788:eed6:dd51/64 scope global temporary deprecated dynamic 
+       valid_lft 22sec preferred_lft 0sec
+    inet6 fd42:7::6df1:172b:3612:d8b5/64 scope global temporary deprecated dynamic 
+       valid_lft 20sec preferred_lft 0sec
+    inet6 fd42:7::6e5:8da0:d583:bc03/64 scope global temporary deprecated dynamic 
+       valid_lft 19sec preferred_lft 0sec
+    inet6 fd42:7::ba6e:e502:1f8a:e15e/64 scope global temporary deprecated dynamic 
+       valid_lft 18sec preferred_lft 0sec
+    inet6 fd42:7::f342:195:c3d4:6cf4/64 scope global temporary deprecated dynamic 
+       valid_lft 16sec preferred_lft 0sec
+    inet6 fd42:7::1040:876a:7e77:f025/64 scope global temporary deprecated dynamic 
+       valid_lft 15sec preferred_lft 0sec
+    inet6 fd42:7::170e:132a:e51c:98b8/64 scope global temporary deprecated dynamic 
+       valid_lft 14sec preferred_lft 0sec
+    inet6 fd42:7::b056:643c:5085:ebcb/64 scope global temporary deprecated dynamic 
+       valid_lft 12sec preferred_lft 0sec
+    inet6 fd42:7::c77c:3dc8:3314:5c97/64 scope global temporary deprecated dynamic 
+       valid_lft 9sec preferred_lft 0sec
+    inet6 fd42:7::c714:7678:fd84:dbc0/64 scope global temporary deprecated dynamic 
+       valid_lft 8sec preferred_lft 0sec
+    inet6 fd42:7::25c:5d51:ef8b:f6fb/64 scope global temporary deprecated dynamic 
+       valid_lft 6sec preferred_lft 0sec
+    inet6 fd42:7::3d18:e836:854b:5a49/64 scope global temporary deprecated dynamic 
+       valid_lft 4sec preferred_lft 0sec
+    inet6 fd42:7::65e6:fa2e:7187:4265/64 scope global temporary deprecated dynamic 
+       valid_lft 2sec preferred_lft 0sec
+    inet6 fd42:7::344c:5ad3:9b7e:d471/64 scope global temporary deprecated dynamic 
+       valid_lft 1sec preferred_lft 0sec
+    inet6 fd42:7::f0ca:c0ff:fe0b:e432/64 scope global dynamic mngtmpaddr proto kernel_ra 
+       valid_lft 119sec preferred_lft 29sec
+    inet6 fe80::f0ca:c0ff:fe0b:e432/64 scope link proto kernel_ll 
+       valid_lft forever preferred_lft forever
+
+net.ipv6.conf.veth0.use_tempaddr = 2
+net.ipv6.conf.veth0.temp_prefered_lft = 15
+net.ipv6.conf.veth0.temp_valid_lft = 60
